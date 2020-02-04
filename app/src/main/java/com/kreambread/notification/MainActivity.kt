@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button_show.setOnClickListener {
-
+            KreamNotification.show(this, "Say", "Hello, this is YouTube style notification example.")
         }
     }
 }
